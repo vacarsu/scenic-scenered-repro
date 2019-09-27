@@ -10,7 +10,7 @@ defmodule Sceneref.Scene.ExampleScene do
 
   def init(_, _) do
     graph =
-      Graph.build(font: :roboto, font_size: @text_size)
+      Graph.build(font: :roboto)
       |> button("btn_1", id: :btn_1, t: {5, 5})
       |> button("btn_2", id: :btn_2, t: {15, 15})
 
